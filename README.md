@@ -181,8 +181,8 @@ Além dos projetos autorais, mantenho estudos, forks e referências técnicas no
 ## `09 // SYSTEM_METRICS`
 
 <div align="center">
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=cmsinformatica&show_icons=true&hide_border=true&bg_color=07110D&title_color=A8FF60&icon_color=A8FF60&text_color=E8F0EB" alt="Cristiano Martins GitHub stats" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cmsinformatica&layout=compact&langs_count=8&hide_border=true&bg_color=07110D&title_color=A8FF60&text_color=E8F0EB" alt="Top languages" />
+<img height="180" src="./profile/stats.svg" alt="Cristiano Martins GitHub stats" />
+<img height="180" src="./profile/top-langs.svg" alt="Top languages" />
 <br/>
 <img src="https://streak-stats.demolab.com?user=cmsinformatica&hide_border=true&background=07110D&ring=A8FF60&fire=A8FF60&currStreakLabel=A8FF60&sideLabels=E8F0EB&currStreakNum=E8F0EB&sideNums=E8F0EB&dates=7E9187" alt="GitHub streak" />
 </div>
