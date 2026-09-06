@@ -20,6 +20,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Generate GitHub stats card
         uses: readme-tools/github-readme-stats-action@v1
@@ -42,5 +44,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile/*.svg
-          git commit -m "chore: update profile stats" || exit 0
-          git push
+          if git diff --cached --quiet; then
+            echo "No metric changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: update profile stats"
+          git pull --rebase origin main
+          git push origin main
