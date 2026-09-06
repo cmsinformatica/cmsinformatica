@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/cms-development-system-banner.jpg" width="100%" alt="Cristiano Martins — CMS Development System" />
+<img src="./assets/cms-development-system-banner.svg" width="100%" alt="Cristiano Martins — CMS Development System" />
 
 <br/>
 
@@ -23,18 +23,8 @@
 const cristiano = {
   role: "Full Stack Developer",
   approach: "AI-Powered Development",
-  building: [
-    "Full Stack Applications",
-    "AI-Powered Solutions",
-    "Workflow Automations",
-    "Systems & Integrations"
-  ],
-  roots: [
-    "Infrastructure",
-    "Linux",
-    "Networks",
-    "Monitoring & Observability"
-  ],
+  building: ["Full Stack Applications", "AI-Powered Solutions", "Workflow Automations", "Systems & Integrations"],
+  roots: ["Infrastructure", "Linux", "Networks", "Monitoring & Observability"],
   evolution: "Infrastructure → Automation → Development → AI",
   mindset: "Code. Automate. Deploy. Improve."
 };
@@ -51,27 +41,13 @@ Hoje concentro meu trabalho em **desenvolvimento Full Stack usando Inteligência
 <div align="center">
 
 ### `FULL STACK`
-
-<img src="https://img.shields.io/badge/TypeScript-07110D?style=for-the-badge&logo=typescript&logoColor=A8FF60" />
-<img src="https://img.shields.io/badge/JavaScript-07110D?style=for-the-badge&logo=javascript&logoColor=A8FF60" />
-<img src="https://img.shields.io/badge/React-07110D?style=for-the-badge&logo=react&logoColor=A8FF60" />
-<img src="https://img.shields.io/badge/Next.js-07110D?style=for-the-badge&logo=nextdotjs&logoColor=A8FF60" />
-<img src="https://img.shields.io/badge/Node.js-07110D?style=for-the-badge&logo=nodedotjs&logoColor=A8FF60" />
-<img src="https://img.shields.io/badge/Python-07110D?style=for-the-badge&logo=python&logoColor=A8FF60" />
+<img src="https://img.shields.io/badge/TypeScript-07110D?style=for-the-badge&logo=typescript&logoColor=A8FF60" /> <img src="https://img.shields.io/badge/JavaScript-07110D?style=for-the-badge&logo=javascript&logoColor=A8FF60" /> <img src="https://img.shields.io/badge/React-07110D?style=for-the-badge&logo=react&logoColor=A8FF60" /> <img src="https://img.shields.io/badge/Next.js-07110D?style=for-the-badge&logo=nextdotjs&logoColor=A8FF60" /> <img src="https://img.shields.io/badge/Node.js-07110D?style=for-the-badge&logo=nodedotjs&logoColor=A8FF60" /> <img src="https://img.shields.io/badge/Python-07110D?style=for-the-badge&logo=python&logoColor=A8FF60" />
 
 ### `DATA & BACKEND`
-
-<img src="https://img.shields.io/badge/Supabase-07110D?style=for-the-badge&logo=supabase&logoColor=A8FF60" />
-<img src="https://img.shields.io/badge/PostgreSQL-07110D?style=for-the-badge&logo=postgresql&logoColor=A8FF60" />
-<img src="https://img.shields.io/badge/Express-07110D?style=for-the-badge&logo=express&logoColor=A8FF60" />
+<img src="https://img.shields.io/badge/Supabase-07110D?style=for-the-badge&logo=supabase&logoColor=A8FF60" /> <img src="https://img.shields.io/badge/PostgreSQL-07110D?style=for-the-badge&logo=postgresql&logoColor=A8FF60" /> <img src="https://img.shields.io/badge/Express-07110D?style=for-the-badge&logo=express&logoColor=A8FF60" />
 
 ### `AUTOMATION & INFRASTRUCTURE`
-
-<img src="https://img.shields.io/badge/n8n-07110D?style=for-the-badge&logo=n8n&logoColor=A8FF60" />
-<img src="https://img.shields.io/badge/Docker-07110D?style=for-the-badge&logo=docker&logoColor=A8FF60" />
-<img src="https://img.shields.io/badge/Linux-07110D?style=for-the-badge&logo=linux&logoColor=A8FF60" />
-<img src="https://img.shields.io/badge/Zabbix-07110D?style=for-the-badge&logo=zabbix&logoColor=A8FF60" />
-<img src="https://img.shields.io/badge/Git-07110D?style=for-the-badge&logo=git&logoColor=A8FF60" />
+<img src="https://img.shields.io/badge/n8n-07110D?style=for-the-badge&logo=n8n&logoColor=A8FF60" /> <img src="https://img.shields.io/badge/Docker-07110D?style=for-the-badge&logo=docker&logoColor=A8FF60" /> <img src="https://img.shields.io/badge/Linux-07110D?style=for-the-badge&logo=linux&logoColor=A8FF60" /> <img src="https://img.shields.io/badge/Zabbix-07110D?style=for-the-badge&logo=zabbix&logoColor=A8FF60" /> <img src="https://img.shields.io/badge/Git-07110D?style=for-the-badge&logo=git&logoColor=A8FF60" />
 
 </div>
 
@@ -127,32 +103,17 @@ INFRASTRUCTURE
 <div align="center">
 
 # 📦 EstoqueFácil
-
 ### Sistema Full Stack de Gestão de Estoque
-
 **React 19 · TypeScript · Vite · Supabase · PostgreSQL · RLS · Tailwind CSS**
 
 </div>
 
 Aplicação de gestão de estoque construída para ir além de um CRUD básico, reunindo interface moderna, autenticação, banco de dados relacional, controle de acesso e regras de negócio.
 
-**Destaques técnicos**
-
-- autenticação e autorização;
-- PostgreSQL via Supabase;
-- Row Level Security (RLS);
-- funções e regras no banco;
-- dashboards e indicadores;
-- importação e exportação de dados;
-- auditoria e controle de permissões;
-- arquitetura Full Stack com TypeScript.
+**Destaques técnicos:** autenticação e autorização; PostgreSQL via Supabase; Row Level Security (RLS); funções e regras no banco; dashboards e indicadores; importação/exportação; auditoria; controle de permissões e arquitetura Full Stack com TypeScript.
 
 <div align="center">
-
-<a href="https://github.com/cmsinformatica/EstoqueFacil_NEW-mainNOVO">
-  <img src="https://img.shields.io/badge/VIEW_PROJECT-EstoqueFácil-A8FF60?style=for-the-badge&logo=github&logoColor=07110D&labelColor=07110D" />
-</a>
-
+<a href="https://github.com/cmsinformatica/EstoqueFacil_NEW-mainNOVO"><img src="https://img.shields.io/badge/VIEW_PROJECT-EstoqueFácil-A8FF60?style=for-the-badge&logo=github&logoColor=07110D&labelColor=07110D" /></a>
 </div>
 
 ---
@@ -160,7 +121,6 @@ Aplicação de gestão de estoque construída para ir além de um CRUD básico, 
 ## `06 // SELECTED_PROJECTS`
 
 ### 🤖 FreeAI Chat
-
 **AI · TypeScript · Express · OpenRouter · Groq**
 
 Aplicação de chat com IA e suporte a múltiplos modelos, streaming de respostas, múltiplas conversas, upload de arquivos e roteamento/classificação de intenção.
@@ -168,7 +128,6 @@ Aplicação de chat com IA e suporte a múltiplos modelos, streaming de resposta
 [![Repository](https://img.shields.io/badge/Repository-FreeAI_Chat-07110D?style=flat-square&logo=github&logoColor=A8FF60)](https://github.com/cmsinformatica/freechat)
 
 ### ⚡ Zabbix Telegram Workflow
-
 **Zabbix · n8n · Telegram · APIs · Automation**
 
 Workflow de automação que transforma alertas do Zabbix em interações pelo Telegram, integrando reconhecimento de incidentes, consulta de histórico, atualização de status e resumos operacionais.
@@ -176,7 +135,6 @@ Workflow de automação que transforma alertas do Zabbix em interações pelo Te
 [![Repository](https://img.shields.io/badge/Repository-Zabbix_×_n8n-07110D?style=flat-square&logo=github&logoColor=A8FF60)](https://github.com/cmsinformatica/zabbix-telegram-workflow)
 
 ### 📋 TaskFlow
-
 **Next.js · React · TypeScript · Supabase · Zustand · Tailwind CSS**
 
 Aplicação de produtividade baseada em quadros Kanban, com workspaces, autenticação, drag-and-drop, labels, checklists e colaboração.
@@ -184,7 +142,6 @@ Aplicação de produtividade baseada em quadros Kanban, com workspaces, autentic
 [![Repository](https://img.shields.io/badge/Repository-TaskFlow-07110D?style=flat-square&logo=github&logoColor=A8FF60)](https://github.com/cmsinformatica/taskflow)
 
 ### 🧁 Gestão para Confeitaria
-
 **React · TypeScript · Vite · Supabase · PostgreSQL · TanStack Query**
 
 Sistema de gestão para pedidos, orçamentos, clientes, catálogo de produtos e acompanhamento do negócio.
@@ -217,24 +174,17 @@ Essa experiência influencia a forma como desenvolvo hoje: não penso apenas na 
 > Infrastructure Automation
 ```
 
-Além dos projetos autorais, mantenho estudos, forks e referências técnicas no GitHub para experimentar tecnologias e acompanhar projetos do ecossistema.
-
-**Exploração não é apresentada aqui como autoria.** O objetivo desta área é mostrar os assuntos que fazem parte do meu laboratório técnico e aprendizado contínuo.
+Além dos projetos autorais, mantenho estudos, forks e referências técnicas no GitHub para experimentar tecnologias e acompanhar projetos do ecossistema. **Exploração não é apresentada aqui como autoria.**
 
 ---
 
 ## `09 // SYSTEM_METRICS`
 
 <div align="center">
-
 <img height="180" src="https://github-readme-stats.vercel.app/api?username=cmsinformatica&show_icons=true&hide_border=true&bg_color=07110D&title_color=A8FF60&icon_color=A8FF60&text_color=E8F0EB" alt="Cristiano Martins GitHub stats" />
-
 <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cmsinformatica&layout=compact&langs_count=8&hide_border=true&bg_color=07110D&title_color=A8FF60&text_color=E8F0EB" alt="Top languages" />
-
 <br/>
-
 <img src="https://streak-stats.demolab.com?user=cmsinformatica&hide_border=true&background=07110D&ring=A8FF60&fire=A8FF60&currStreakLabel=A8FF60&sideLabels=E8F0EB&currStreakNum=E8F0EB&sideNums=E8F0EB&dates=7E9187" alt="GitHub streak" />
-
 </div>
 
 > GitHub language cards represent repository composition and do not necessarily indicate proficiency level.
@@ -270,16 +220,9 @@ cms@network:~$ _
 <div align="center">
 
 ### `ESTABLISH CONNECTION`
-
-<a href="https://github.com/cmsinformatica">
-  <img src="https://img.shields.io/badge/GitHub-cmsinformatica-07110D?style=for-the-badge&logo=github&logoColor=A8FF60" />
-</a>
-<a href="https://www.linkedin.com/in/cmsinformatica/">
-  <img src="https://img.shields.io/badge/LinkedIn-Cristiano_Martins-07110D?style=for-the-badge&logo=linkedin&logoColor=A8FF60" />
-</a>
-<a href="https://www.cristianomartins.net/">
-  <img src="https://img.shields.io/badge/Portfolio-cristianomartins.net-07110D?style=for-the-badge&logo=googlechrome&logoColor=A8FF60" />
-</a>
+<a href="https://github.com/cmsinformatica"><img src="https://img.shields.io/badge/GitHub-cmsinformatica-07110D?style=for-the-badge&logo=github&logoColor=A8FF60" /></a>
+<a href="https://www.linkedin.com/in/cmsinformatica/"><img src="https://img.shields.io/badge/LinkedIn-Cristiano_Martins-07110D?style=for-the-badge&logo=linkedin&logoColor=A8FF60" /></a>
+<a href="https://www.cristianomartins.net/"><img src="https://img.shields.io/badge/Portfolio-cristianomartins.net-07110D?style=for-the-badge&logo=googlechrome&logoColor=A8FF60" /></a>
 
 <br/><br/>
 
