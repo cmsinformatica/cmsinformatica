@@ -23,13 +23,65 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Generate GitHub stats card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&bg_color=07110D&title_color=A8FF60&icon_color=A8FF60&text_color=E8F0EB
-          path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Generate CMS public stats card
+        shell: python
+        run: |
+          import json
+          import urllib.request
+          from pathlib import Path
+
+          username = "cmsinformatica"
+          headers = {"User-Agent": "cms-profile-stats"}
+
+          def get_json(url):
+              req = urllib.request.Request(url, headers=headers)
+              with urllib.request.urlopen(req, timeout=30) as r:
+                  return json.load(r)
+
+          user = get_json(f"https://api.github.com/users/{username}")
+          repos = []
+          page = 1
+          while True:
+              batch = get_json(
+                  f"https://api.github.com/users/{username}/repos?per_page=100&page={page}&type=owner&sort=updated"
+              )
+              if not batch:
+                  break
+              repos.extend(batch)
+              if len(batch) < 100:
+                  break
+              page += 1
+
+          stars = sum(int(r.get("stargazers_count", 0)) for r in repos if not r.get("fork"))
+          forks = sum(int(r.get("forks_count", 0)) for r in repos if not r.get("fork"))
+          public_repos = int(user.get("public_repos", len(repos)))
+          followers = int(user.get("followers", 0))
+
+          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="500" height="195" viewBox="0 0 500 195">
+            <rect width="500" height="195" rx="8" fill="#07110D"/>
+            <text x="28" y="38" fill="#A8FF60" font-family="Arial,Segoe UI,sans-serif" font-size="21" font-weight="700">CMS // GITHUB METRICS</text>
+            <text x="28" y="62" fill="#7E9187" font-family="Arial,Segoe UI,sans-serif" font-size="12">PUBLIC PROFILE TELEMETRY</text>
+            <line x1="28" y1="78" x2="472" y2="78" stroke="#1E3027" stroke-width="1"/>
+
+            <text x="48" y="112" fill="#E8F0EB" font-family="Arial,Segoe UI,sans-serif" font-size="25" font-weight="700">{public_repos}</text>
+            <text x="48" y="134" fill="#7E9187" font-family="Arial,Segoe UI,sans-serif" font-size="12">PUBLIC REPOS</text>
+
+            <text x="172" y="112" fill="#E8F0EB" font-family="Arial,Segoe UI,sans-serif" font-size="25" font-weight="700">{stars}</text>
+            <text x="172" y="134" fill="#7E9187" font-family="Arial,Segoe UI,sans-serif" font-size="12">TOTAL STARS</text>
+
+            <text x="288" y="112" fill="#E8F0EB" font-family="Arial,Segoe UI,sans-serif" font-size="25" font-weight="700">{forks}</text>
+            <text x="288" y="134" fill="#7E9187" font-family="Arial,Segoe UI,sans-serif" font-size="12">TOTAL FORKS</text>
+
+            <text x="404" y="112" fill="#E8F0EB" font-family="Arial,Segoe UI,sans-serif" font-size="25" font-weight="700">{followers}</text>
+            <text x="404" y="134" fill="#7E9187" font-family="Arial,Segoe UI,sans-serif" font-size="12">FOLLOWERS</text>
+
+            <circle cx="33" cy="166" r="4" fill="#A8FF60"/>
+            <text x="45" y="170" fill="#A8FF60" font-family="monospace" font-size="12">STATUS: ONLINE</text>
+            <text x="472" y="170" text-anchor="end" fill="#7E9187" font-family="monospace" font-size="11">cmsinformatica</text>
+          </svg>'''
+
+          Path("profile").mkdir(exist_ok=True)
+          Path("profile/stats.svg").write_text(svg, encoding="utf-8")
 
       - name: Generate top languages card
         uses: readme-tools/github-readme-stats-action@v1
