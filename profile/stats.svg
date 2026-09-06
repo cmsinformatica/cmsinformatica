@@ -1,15 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="195" viewBox="0 0 500 195">
+  <rect width="500" height="195" rx="8" fill="#07110D"/>
+  <text x="28" y="38" fill="#A8FF60" font-family="Arial,Segoe UI,sans-serif" font-size="21" font-weight="700">CMS // GITHUB METRICS</text>
+  <text x="28" y="62" fill="#7E9187" font-family="Arial,Segoe UI,sans-serif" font-size="12">PUBLIC PROFILE TELEMETRY</text>
+  <line x1="28" y1="78" x2="472" y2="78" stroke="#1E3027" stroke-width="1"/>
 
-    <svg width="576.5"  height="120" viewBox="0 0 576.5 120" fill="#07110D" xmlns="http://www.w3.org/2000/svg">
-    <style>
-    .text { font: 600 16px 'Segoe UI', Ubuntu, Sans-Serif; fill: #A8FF60 }
-    .small { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #E8F0EB }
-    .gray { fill: #858585 }
-    </style>
-    <rect x="0.5" y="0.5" width="575.5" height="99%" rx="4.5" fill="#07110D" stroke="#e4e2e2"/>
-    <text x="25" y="45" class="text">Something went wrong! file an issue at https://tiny.one/readme-stats</text>
-    <text data-testid="message" x="25" y="55" class="text small">
-      <tspan x="25" dy="18">Resource not accessible by integration</tspan>
-      <tspan x="25" dy="18" class="gray">OK</tspan>
-    </text>
-    </svg>
-  
+  <text x="48" y="112" fill="#E8F0EB" font-family="Arial,Segoe UI,sans-serif" font-size="25" font-weight="700">91</text>
+  <text x="48" y="134" fill="#7E9187" font-family="Arial,Segoe UI,sans-serif" font-size="12">PUBLIC REPOS</text>
+
+  <text x="172" y="112" fill="#E8F0EB" font-family="Arial,Segoe UI,sans-serif" font-size="25" font-weight="700">1</text>
+  <text x="172" y="134" fill="#7E9187" font-family="Arial,Segoe UI,sans-serif" font-size="12">TOTAL STARS</text>
+
+  <text x="288" y="112" fill="#E8F0EB" font-family="Arial,Segoe UI,sans-serif" font-size="25" font-weight="700">0</text>
+  <text x="288" y="134" fill="#7E9187" font-family="Arial,Segoe UI,sans-serif" font-size="12">TOTAL FORKS</text>
+
+  <text x="404" y="112" fill="#E8F0EB" font-family="Arial,Segoe UI,sans-serif" font-size="25" font-weight="700">16</text>
+  <text x="404" y="134" fill="#7E9187" font-family="Arial,Segoe UI,sans-serif" font-size="12">FOLLOWERS</text>
+
+  <circle cx="33" cy="166" r="4" fill="#A8FF60"/>
+  <text x="45" y="170" fill="#A8FF60" font-family="monospace" font-size="12">STATUS: ONLINE</text>
+  <text x="472" y="170" text-anchor="end" fill="#7E9187" font-family="monospace" font-size="11">cmsinformatica</text>
+</svg>
